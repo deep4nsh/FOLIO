@@ -2,73 +2,79 @@
 // Project data
 const projects = [
     {
-        title: "E-Commerce Flutter App",
-        description: "A complete shopping app with payment integration, user authentication, and real-time inventory management. Features include product catalog, cart system, order tracking, and admin dashboard.",
-        image: "http://static.photos/retail/640x360/1",
-        technologies: ["Flutter", "Firebase", "Stripe", "Provider"],
+        title: "Krave- Canteen Order Management App",
+        description: "A digital solution for campus canteens allowing students to pre-order meals, track orders, and make cashless payments. Reduces wait times and improves efficiency.",
+        image: "http://static.photos/food/640x360/1",
+        technologies: ["Flutter", "Firebase", "Razor Pay API", "Provider"],
         githubUrl: "#",
         liveDemo: "#",
         features: [
-            "Secure payment processing with Stripe",
-            "Real-time inventory updates",
-            "User authentication with Firebase",
-            "Admin dashboard for product management",
-            "Order tracking system"
+            "Real-time order tracking",
+            "Digital payment integration",
+            "Menu customization",
+            "Order history",
+            "Admin dashboard"
         ]
     },
     {
-        title: "Weather Forecast App",
-        description: "Beautiful weather app with location-based forecasts, interactive maps, and weather alerts. Provides detailed 7-day forecasts, hourly predictions, and severe weather notifications.",
-        image: "http://static.photos/nature/640x360/2",
-        technologies: ["Flutter", "OpenWeather API", "Bloc", "Geolocator"],
+        title: "Screen Time Tracker",
+        description: "Productivity app that monitors device usage, provides detailed analytics, and helps users reduce screen time with smart reminders.",
+        image: "https://discussions.apple.com/content/attachment/acc90b02-eb35-4f9b-951f-8bc60f5febb6",
+        technologies: ["Flutter", "Android SDK", "SQLite", "Riverpod"],
         githubUrl: "#",
         liveDemo: "#",
         features: [
-            "Location-based weather data",
-            "Interactive weather maps",
-            "7-day and hourly forecasts",
-            "Severe weather alerts",
-            "Dark/light mode support"
+            "App usage statistics",
+            "Daily/weekly reports",
+            "Usage goals and limits",
+            "Focus mode",
+            "Cross-device sync"
         ]
     },
     {
-        title: "Fitness Tracker",
-        description: "Comprehensive fitness app with workout plans, progress tracking, and social features. Tracks workouts, nutrition, and body metrics with detailed analytics.",
-        image: "http://static.photos/wellness/640x360/3",
-        technologies: ["Flutter", "SQLite", "Charts", "GetX"],
+        title: "Findom - Finance Social Platform",
+        description: "A niche social network for finance professionals to share insights, discuss trends, and network with peers.",
+        image: "https://start.docuware.com/hubfs/busines%20people%20at%20a%20conference%20table.jpg",
+        technologies: ["Flutter", "Firebase", "GraphQL", "Bloc"],
         githubUrl: "#",
         liveDemo: "#",
         features: [
-            "Custom workout plans",
-            "Nutrition tracking",
-            "Progress analytics",
-            "Social sharing",
-            "Offline functionality"
+            "Discussion forums",
+            "Market data visualization",
+            "User verification",
+            "Premium content",
+            "Real-time notifications"
         ]
     },
-{
-        title: "News Reader App",
-        description: "Modern news aggregator with personalized feeds, offline reading, and dark mode support.",
-        image: "http://static.photos/technology/640x360/4",
-        technologies: ["Flutter", "News API", "Hive", "Riverpod"],
+    {
+        title: "SliceIt - Expense Manager",
+        description: "Smart expense splitting app that helps groups track shared expenses and settle balances easily.",
+        image: "https://media.newyorker.com/photos/5b310f608bd74d505319ac2e/master/w_2240,c_limit/Dana-Split-The-=-Bill.jpg",
+        technologies: ["Flutter", "Firebase", "Google Auth", "GetX"],
         githubUrl: "#",
-        liveDemo: "#"
+        liveDemo: "#",
+        features: [
+            "Group expense tracking",
+            "Automatic balance calculation",
+            "Multi-currency support",
+            "Receipt scanning",
+            "Payment reminders"
+        ]
     },
     {
-        title: "Chat Application",
-        description: "Real-time messaging app with group chats, media sharing, and push notifications.",
-        image: "http://static.photos/workspace/640x360/5",
-        technologies: ["Flutter", "Socket.io", "Node.js", "MongoDB"],
+        title: "Sortify - Image Classifier",
+        description: "ML-powered app that categorizes images using computer vision, with customizable categories and offline support.",
+        image: "https://formrecognizer.appliedai.azure.cn/",
+        technologies: ["Flutter", "TensorFlow Lite", "Python", "Firebase ML"],
         githubUrl: "#",
-        liveDemo: "#"
-    },
-    {
-        title: "Task Management",
-        description: "Productivity app with task organization, team collaboration, and deadline tracking.",
-        image: "http://static.photos/office/640x360/6",
-        technologies: ["Flutter", "Supabase", "Flutter Bloc", "Notifications"],
-        githubUrl: "#",
-        liveDemo: "#"
+        liveDemo: "#",
+        features: [
+            "Custom model training",
+            "Offline classification",
+            "Batch processing",
+            "Category management",
+            "Accuracy metrics"
+        ]
     }
 ];
 // DOM Content Loaded
