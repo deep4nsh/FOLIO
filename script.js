@@ -6,7 +6,7 @@ const projects = [
         description: "A digital solution for campus canteens allowing students to pre-order meals, track orders, and make cashless payments. Reduces wait times and improves efficiency.",
         image: "http://static.photos/food/640x360/1",
         technologies: ["Flutter", "Firebase", "Razor Pay API", "Provider"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/deep4nsh/krave",
         liveDemo: "#",
         features: [
             "Real-time order tracking",
@@ -21,7 +21,7 @@ const projects = [
         description: "Productivity app that monitors device usage, provides detailed analytics, and helps users reduce screen time with smart reminders.",
         image: "https://discussions.apple.com/content/attachment/acc90b02-eb35-4f9b-951f-8bc60f5febb6",
         technologies: ["Flutter", "Android SDK", "SQLite", "Riverpod"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/deep4nsh/ScreenTimePro",
         liveDemo: "#",
         features: [
             "App usage statistics",
@@ -36,7 +36,7 @@ const projects = [
         description: "A niche social network for finance professionals to share insights, discuss trends, and network with peers.",
         image: "https://start.docuware.com/hubfs/busines%20people%20at%20a%20conference%20table.jpg",
         technologies: ["Flutter", "Firebase", "GraphQL", "Bloc"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/deep4nsh/Findom",
         liveDemo: "#",
         features: [
             "Discussion forums",
@@ -51,7 +51,7 @@ const projects = [
         description: "Smart expense splitting app that helps groups track shared expenses and settle balances easily.",
         image: "https://media.newyorker.com/photos/5b310f608bd74d505319ac2e/master/w_2240,c_limit/Dana-Split-The-=-Bill.jpg",
         technologies: ["Flutter", "Firebase", "Google Auth", "GetX"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/deep4nsh/SliceIt",
         liveDemo: "#",
         features: [
             "Group expense tracking",
@@ -66,7 +66,7 @@ const projects = [
         description: "ML-powered app that categorizes images using computer vision, with customizable categories and offline support.",
         image: "https://editor.analyticsvidhya.com/uploads/30792image%20processing%20feature%20img.png",
         technologies: ["Flutter", "TensorFlow Lite", "Python", "Firebase ML"],
-        githubUrl: "#",
+        githubUrl: "https://github.com/deep4nsh/sortify",
         liveDemo: "#",
         features: [
             "Custom model training",
