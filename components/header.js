@@ -75,7 +75,7 @@ class PortfolioHeader extends HTMLElement {
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
-                    <a href="#" class="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-500 transition-colors">
+                    <a href="https://drive.google.com/file/d/1od7WzCoERznl-aeYz3MRxMtk0C4PK_Vq/view?usp=sharing" class="bg-primary-600 text-white px-4 py-2 rounded-lg hover:bg-primary-500 transition-colors">
                         Resume
                     </a>
                 </div>
