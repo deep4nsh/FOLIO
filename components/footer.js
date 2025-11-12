@@ -48,7 +48,7 @@ class PortfolioFooter extends HTMLElement {
                         <i data-feather="mail" class="w-6 h-6"></i>
                     </a>
                 </div>
-                <p class="copyright">© 2024 FlutterVerse Nexus. Built with ❤️ and Flutter.</p>
+                <p class="copyright">© 2025 Deepansh Gupta. Built with ❤️ and Flutter.</p>
             </div>
         `;
     }
