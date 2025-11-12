@@ -64,7 +64,7 @@ const projects = [
     {
         title: "Sortify - Image Classifier",
         description: "ML-powered app that categorizes images using computer vision, with customizable categories and offline support.",
-        image: "https://formrecognizer.appliedai.azure.cn/",
+        image: "https://editor.analyticsvidhya.com/uploads/30792image%20processing%20feature%20img.png",
         technologies: ["Flutter", "TensorFlow Lite", "Python", "Firebase ML"],
         githubUrl: "#",
         liveDemo: "#",
