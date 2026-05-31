@@ -5,9 +5,11 @@ class PortfolioFooter extends HTMLElement {
             <style>
                 :host {
                     display: block;
-                    background: #0c4a6e;
-                    color: white;
+                    background: var(--footer-bg, #0b1329);
+                    border-top: 1px solid var(--header-border, rgba(14, 165, 233, 0.1));
+                    color: var(--nav-text, #cbd5e1);
                     padding: 3rem 2rem;
+                    transition: background-color 0.3s, color 0.3s;
                 }
                 .footer-content {
                     max-width: 1200px;
@@ -21,36 +23,42 @@ class PortfolioFooter extends HTMLElement {
                     margin-bottom: 2rem;
                 }
                 .social-links a {
-                    color: white;
+                    color: var(--nav-text, #cbd5e1);
                     text-decoration: none;
-                    transition: color 0.3s ease;
+                    transition: color 0.3s ease, transform 0.3s ease;
+                    display: inline-block;
                 }
                 .social-links a:hover {
                     color: #0ea5e9;
+                    transform: translateY(-3px);
                 }
-.copyright {
+                .copyright {
                     opacity: 0.8;
                     font-size: 0.9rem;
                 }
             </style>
             <div class="footer-content">
                 <div class="social-links">
-                    <a href="https://github.com" aria-label="GitHub">
+                    <a href="https://github.com/deep4nsh/" aria-label="GitHub" target="_blank">
                         <i data-feather="github" class="w-6 h-6"></i>
                     </a>
-                    <a href="https://linkedin.com" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/deepanshdev/" aria-label="LinkedIn" target="_blank">
                         <i data-feather="linkedin" class="w-6 h-6"></i>
                     </a>
-                    <a href="https://twitter.com" aria-label="Twitter">
-                        <i data-feather="twitter" class="w-6 h-6"></i>
-                    </a>
-                    <a href="mailto:hello@flutterverse.dev" aria-label="Email">
+                    <a href="mailto:deepansh.gup124@gmail.com" aria-label="Email">
                         <i data-feather="mail" class="w-6 h-6"></i>
                     </a>
                 </div>
-                <p class="copyright">© 2025 Deepansh Gupta. Built with ❤️ and Flutter.</p>
+                <p class="copyright">© 2026 Deepansh Gupta. Built with ❤️ and Flutter.</p>
             </div>
         `;
+        
+        // Render feather icons inside Shadow DOM
+        setTimeout(() => {
+            if (window.feather) {
+                window.feather.replace(this.shadowRoot);
+            }
+        }, 100);
     }
 }
 

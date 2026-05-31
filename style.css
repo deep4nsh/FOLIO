@@ -1,3 +1,22 @@
+:root {
+  --header-bg: rgba(255, 255, 255, 0.85);
+  --header-bg-mobile: #ffffff;
+  --header-border: rgba(14, 165, 233, 0.15);
+  --nav-text: #1e293b;
+  --btn-color: #1e293b;
+  --footer-bg: #f1f5f9;
+  --particle-opacity: 0.15;
+}
+
+html.dark {
+  --header-bg: rgba(15, 23, 42, 0.85);
+  --header-bg-mobile: #1e293b;
+  --header-border: rgba(14, 165, 233, 0.25);
+  --nav-text: #cbd5e1;
+  --btn-color: #cbd5e1;
+  --footer-bg: #090d16;
+  --particle-opacity: 0.08;
+}
 
 /* Enhanced animations and interactive styles */
 @keyframes float {
@@ -391,7 +410,7 @@ a:focus {
     position: absolute;
     background: linear-gradient(135deg, #0ea5e9, #d946ef);
     border-radius: 50%;
-    opacity: 0.1;
+    opacity: var(--particle-opacity);
     animation: float 6s ease-in-out infinite;
 }
 

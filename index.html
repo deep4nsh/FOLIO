@@ -56,84 +56,124 @@
         }
     </script>
 </head>
-<body class="bg-dark-900 text-gray-200">
+<body class="bg-slate-50 text-slate-800 dark:bg-dark-900 dark:text-gray-200 transition-colors duration-300">
 <portfolio-header></portfolio-header>
     
     <main>
         <!-- Hero Section -->
-        <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-dark-800 to-dark-900 py-20">
-            <div class="container mx-auto px-6 text-center">
+        <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 dark:from-dark-800 dark:to-dark-900 py-20 relative overflow-hidden">
+            <div class="container mx-auto px-6 text-center z-10">
                 <div class="max-w-4xl mx-auto">
-                    <h1 class="text-5xl md:text-7xl font-bold text-primary-400 mb-6">
+                    <h1 class="text-5xl md:text-7xl font-bold text-primary-600 dark:text-primary-400 mb-6 transition-colors duration-300">
                         Flutter Android Developer
                     </h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                    <p class="text-xl md:text-2xl text-slate-600 dark:text-gray-300 mb-8 transition-colors duration-300">
                         Crafting beautiful, performant Android experiences with Flutter
                     </p>
                     <div class="flex justify-center gap-6">
-                        <a href="#projects" class="bg-primary-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-primary-500 transition-colors">
+                        <a href="#projects" class="bg-primary-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-primary-500 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">
                             View My Work
                         </a>
-                        <a href="#contact" class="border-2 border-primary-600 text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white transition-colors">
+                        <a href="#contact" class="border-2 border-primary-600 text-primary-600 dark:text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white dark:hover:text-white transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1">
                             Get In Touch
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Skills Section -->
-        <section id="skills" class="py-20 bg-dark-800">
+        <section id="skills" class="py-20 bg-slate-50 dark:bg-dark-800 border-t border-slate-200 dark:border-gray-800 transition-colors duration-300">
             <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold text-center text-primary-400 mb-16">Technical Expertise</h2>
+                <h2 class="text-4xl font-bold text-center text-primary-600 dark:text-primary-400 mb-16">Technical Expertise</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="text-center p-6 rounded-2xl bg-dark-700 hover:shadow-2xl transition-shadow border border-gray-700">
-                        <i data-feather="smartphone" class="w-12 h-12 text-primary-400 mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-3 text-white">Flutter Development</h3>
-                        <p class="text-gray-400">Expert in building cross-platform Android apps with beautiful UI/UX</p>
+                    <div class="text-center p-6 rounded-2xl bg-white dark:bg-dark-700 hover:shadow-2xl transition-all duration-300 border border-slate-200 dark:border-gray-700 skill-card opacity-0 transform translate-y-5">
+                        <i data-feather="smartphone" class="w-12 h-12 text-primary-500 dark:text-primary-400 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-800 dark:text-white">Flutter Development</h3>
+                        <p class="text-slate-600 dark:text-gray-400">Expert in building cross-platform Android apps with beautiful UI/UX</p>
                     </div>
-                    <div class="text-center p-6 rounded-2xl bg-dark-700 hover:shadow-2xl transition-shadow border border-gray-700">
-                        <i data-feather="code" class="w-12 h-12 text-secondary-400 mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-3 text-white">Dart Programming</h3>
-                        <p class="text-gray-400">Proficient in Dart language features and best practices</p>
+                    <div class="text-center p-6 rounded-2xl bg-white dark:bg-dark-700 hover:shadow-2xl transition-all duration-300 border border-slate-200 dark:border-gray-700 skill-card opacity-0 transform translate-y-5">
+                        <i data-feather="code" class="w-12 h-12 text-secondary-500 dark:text-secondary-400 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-800 dark:text-white">Dart Programming</h3>
+                        <p class="text-slate-600 dark:text-gray-400">Proficient in Dart language features and best practices</p>
                     </div>
-                    <div class="text-center p-6 rounded-2xl bg-dark-700 hover:shadow-2xl transition-shadow border border-gray-700">
-                        <i data-feather="database" class="w-12 h-12 text-primary-400 mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-3 text-white">State Management</h3>
-                        <p class="text-gray-400">Experienced with Bloc, Provider, Riverpod, and GetX</p>
+                    <div class="text-center p-6 rounded-2xl bg-white dark:bg-dark-700 hover:shadow-2xl transition-all duration-300 border border-slate-200 dark:border-gray-700 skill-card opacity-0 transform translate-y-5">
+                        <i data-feather="database" class="w-12 h-12 text-primary-500 dark:text-primary-400 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-800 dark:text-white">State Management</h3>
+                        <p class="text-slate-600 dark:text-gray-400">Experienced with Bloc, Provider, Riverpod, and GetX</p>
                     </div>
-                    <div class="text-center p-6 rounded-2xl bg-dark-700 hover:shadow-2xl transition-shadow border border-gray-700">
-                        <i data-feather="cloud" class="w-12 h-12 text-secondary-400 mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-3 text-white">Backend Integration</h3>
-                        <p class="text-gray-400">REST APIs, Firebase, GraphQL, and real-time databases</p>
+                    <div class="text-center p-6 rounded-2xl bg-white dark:bg-dark-700 hover:shadow-2xl transition-all duration-300 border border-slate-200 dark:border-gray-700 skill-card opacity-0 transform translate-y-5">
+                        <i data-feather="cloud" class="w-12 h-12 text-secondary-500 dark:text-secondary-400 mx-auto mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-3 text-slate-800 dark:text-white">Backend Integration</h3>
+                        <p class="text-slate-600 dark:text-gray-400">REST APIs, Firebase, GraphQL, and real-time databases</p>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Projects Section -->
-        <section id="projects" class="py-20 bg-dark-800">
+        <section id="projects" class="py-20 bg-slate-100 dark:bg-dark-800 border-t border-slate-200 dark:border-gray-800 transition-colors duration-300">
             <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold text-center text-primary-400 mb-16">Featured Projects</h2>
+                <h2 class="text-4xl font-bold text-center text-primary-600 dark:text-primary-400 mb-16">Featured Projects</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Project cards will be populated by JavaScript -->
                 </div>
             </div>
         </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-slate-50 dark:bg-dark-900 border-t border-slate-200 dark:border-gray-800 transition-colors duration-300">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-primary-600 dark:text-primary-400 mb-16">Client & Colleague Feedback</h2>
+                <div class="max-w-3xl mx-auto relative">
+                    <!-- Carousel Container -->
+                    <div id="testimonials-container" class="relative overflow-hidden rounded-2xl bg-white dark:bg-dark-700 p-8 md:p-12 border border-slate-200 dark:border-gray-700 min-h-[250px] flex flex-col justify-center shadow-lg transition-colors duration-300">
+                        <!-- Individual Testimonial will be loaded by JS -->
+                    </div>
+                    <!-- Carousel Controls -->
+                    <div class="flex justify-center gap-4 mt-8">
+                        <button id="prev-testimonial" class="bg-white dark:bg-dark-700 text-primary-600 dark:text-primary-400 p-3 rounded-full hover:bg-primary-600 hover:text-white transition-all duration-300 border border-slate-200 dark:border-gray-600 shadow-sm" aria-label="Previous testimonial">
+                            <i data-feather="chevron-left" class="w-6 h-6"></i>
+                        </button>
+                        <button id="next-testimonial" class="bg-white dark:bg-dark-700 text-primary-600 dark:text-primary-400 p-3 rounded-full hover:bg-primary-600 hover:text-white transition-all duration-300 border border-slate-200 dark:border-gray-600 shadow-sm" aria-label="Next testimonial">
+                            <i data-feather="chevron-right" class="w-6 h-6"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Preview Section -->
+        <section id="blog-preview" class="py-20 bg-slate-100 dark:bg-dark-800 border-t border-slate-200 dark:border-gray-800 transition-colors duration-300">
+            <div class="container mx-auto px-6">
+                <div class="flex justify-between items-center mb-16">
+                    <h2 class="text-4xl font-bold text-primary-600 dark:text-primary-400">Latest Insights</h2>
+                    <a href="blog.html" class="border-2 border-primary-600 text-primary-600 dark:text-primary-400 px-6 py-2 rounded-full font-semibold hover:bg-primary-600 hover:text-white dark:hover:text-white transition-colors duration-300">
+                        View All Posts
+                    </a>
+                </div>
+                <div id="blog-preview-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Blog cards loaded by JS -->
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
-        <section id="contact" class="py-20 bg-dark-700 text-white">
+        <section id="contact" class="py-20 bg-slate-200 text-slate-800 dark:bg-dark-700 dark:text-white transition-colors duration-300 border-t border-slate-300 dark:border-gray-800">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-4xl font-bold mb-8">Let's Build Something Amazing</h2>
-                    <p class="text-xl mb-12 text-gray-300">Ready to bring your Android app idea to life? Let's connect!</p>
+                    <p class="text-xl mb-12 text-slate-600 dark:text-gray-300">Ready to bring your Android app idea to life? Let's connect!</p>
                     <div class="flex justify-center gap-6 flex-wrap">
-                        <a href="mailto:deepansh.gup124@gmail.com" class="bg-primary-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-primary-500 transition-colors">
+                        <a href="mailto:deepansh.gup124@gmail.com" class="bg-primary-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-primary-500 transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 flex items-center">
                             <i data-feather="mail" class="inline mr-2 w-5 h-5"></i>
                             Email Me
                         </a>
-                        <a href="https://github.com/deep4nsh/" class="border-2 border-primary-600 text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white transition-colors">
+                        <a href="https://github.com/deep4nsh/" class="border-2 border-primary-600 text-primary-600 dark:text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white dark:hover:text-white transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md flex items-center" target="_blank">
                             <i data-feather="github" class="inline mr-2 w-5 h-5"></i>
                             GitHub
                         </a>
-                        <a href="https://www.linkedin.com/in/deepanshdev/" class="border-2 border-primary-600 text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white transition-colors">
+                        <a href="https://www.linkedin.com/in/deepanshdev/" class="border-2 border-primary-600 text-primary-600 dark:text-primary-400 px-8 py-4 rounded-full font-semibold hover:bg-primary-600 hover:text-white dark:hover:text-white transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md flex items-center" target="_blank">
                             <i data-feather="linkedin" class="inline mr-2 w-5 h-5"></i>
                             LinkedIn
                         </a>
@@ -141,7 +181,7 @@
                 </div>
             </div>
         </section>
-</main>
+    </main>
 
     <portfolio-footer></portfolio-footer>
 
